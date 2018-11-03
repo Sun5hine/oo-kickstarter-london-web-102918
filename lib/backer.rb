@@ -1,3 +1,5 @@
+require "pry"
+
 class Backer
   
   attr_accessor :backed_projects
@@ -14,3 +16,5 @@ class Backer
   end 
 
 end 
+
+pry.start 
