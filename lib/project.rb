@@ -4,7 +4,7 @@ class Project
   
   @@backers =[]
   
-  def initialize(project_name)
+  def initialize()
     @project_name  = project_name
     
   end
