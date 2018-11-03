@@ -16,7 +16,7 @@ class Backer
   end 
   
   def back_project(project_name)
-    @@backer << project_name
+    @@backers << project_name
     
 
 end 
