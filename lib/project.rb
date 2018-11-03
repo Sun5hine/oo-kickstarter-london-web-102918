@@ -1,12 +1,10 @@
 class Project
   
-  attr_accessor :backers
+  attr_accessor :backers, :title 
   
-  @@backers =[]
-  
-  def initialize()
-    @project_name  = project_name
-    
+  def initialize(title)
+    @title = title
+    @backers =[]
   end
   
   def self.backers
