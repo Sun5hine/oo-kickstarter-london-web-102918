@@ -11,8 +11,8 @@ class Project
     @@backers
   end 
   
-  def back_project(name)
-    @@backed_projects << name
+  def add_backer(name)
+    @backers << name
   end 
     
 
