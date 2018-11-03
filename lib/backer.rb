@@ -1,4 +1,4 @@
-require "pry"
+
 
 class Backer
   
@@ -20,4 +20,3 @@ class Backer
 
 end 
 
-pry.start 
